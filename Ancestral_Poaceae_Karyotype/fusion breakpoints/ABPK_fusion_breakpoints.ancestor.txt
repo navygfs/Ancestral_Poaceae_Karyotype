@@ -1,0 +1,4 @@
+Oryza_sativa_1	1	100	red	1
+Oryza_sativa_1	101	200	blue	1
+Oryza_sativa_7	1	100	red	1
+Oryza_sativa_7	101	200	blue	1
