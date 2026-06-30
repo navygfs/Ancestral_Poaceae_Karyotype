@@ -129,7 +129,7 @@ do
 awk -v chr=$chr '$1==chr' ACK_chr.len > ACK_chr.$chr.len
 echo "
 [alignmenttrees]
-alignment = merged_chr_4.alignment.csv
+alignment = merged_chr_$chr.alignment.csv
 gff = ACK_chr.gff
 lens = ACK_chr.$chr.len
 dir = ACK_chr.$chr.tree
@@ -166,9 +166,7 @@ Chromosome segment assignments in the final column were adjusted based on chromo
 
 [raw_Sporobolus_maritimus_chr.ancestor.txt](./Sporobolus_subgenome/raw_Sporobolus_maritimus_chr.ancestor.txt)
 
-[raw_Sporobolus_alterniflorus_chr.ancestor.txt](./raw_Sporobolus_subgenome/raw_Sporobolus_alterniflorus_chr.ancestor.txt)
-
-
+[raw_Sporobolus_alterniflorus_chr.ancestor.txt](./Sporobolus_subgenome/raw_Sporobolus_alterniflorus_chr.ancestor.txt)
 
 <img src="./Sporobolus_subgenome/Sporobolus_chr_ACK_chr.png" style="zoom: 100%;" />
 
