@@ -8,17 +8,17 @@ We used WGDI ('-d') to generate a homologous gene dot plot between *S. maritimus
 
 [ACK_chr.ancestor.txt](./Sporobolus_subgenome/ACK_chr.ancestor.txt)
 
-| 1    | 1 | 5135 | white   | 1    |
-| ---- | --| ---- | ------- | ---- |
-| 2    | 1 | 4398 | white   | 1    |
-| 3    | 1 | 4415 | white   | 1    |
-| 4    | 1 | 4224 | #0000ff | 1    |
-| 5    | 1 | 2899 | white   | 1    |
-| 6    | 1 | 2409 | white   | 1    |
-| 7    | 1 | 3006 | white   | 1    |
-| 8    | 1 | 2464 | white   | 1    |
-| 9    | 1 | 2736 | white   | 1    |
-| 10   | 1 | 2346 | white   | 1    |
+| 1    | 1    | 5135 | white   | 1    |
+| ---- | ---- | ---- | ------- | ---- |
+| 2    | 1    | 4398 | white   | 1    |
+| 3    | 1    | 4415 | white   | 1    |
+| 4    | 1    | 4224 | #000000 | 1    |
+| 5    | 1    | 2899 | white   | 1    |
+| 6    | 1    | 2409 | white   | 1    |
+| 7    | 1    | 3006 | white   | 1    |
+| 8    | 1    | 2464 | white   | 1    |
+| 9    | 1    | 2736 | white   | 1    |
+| 10   | 1    | 2346 | white   | 1    |
 
 Collinear regions were identified and integrated using WGDI with the '-icl' and '-bi' parameters. Stringent filtering was then performed using the correspondence module ('-c') to eliminate syntenic regions derived from earlier polyploidization events. Reference ACK chromosome color was then mapped onto *S. maritimus* chromosomes based on syntenic relationships using WGDI with the '-km' parameter, resulting in the ancestor_file of *S. maritimus*, namely Sporobolus_maritimus_chr.ancestor.txt. Finally, we generated a homologous gene dot plot between ACK and *S. maritimus* with WGDI ('-d'). The resulting dot plot is shown in the figure below.
 
@@ -28,29 +28,29 @@ Excluding the chromosomes marked  in white, the remaining chromosomes are shown 
 
 [Sporobolus_maritimus_chr.ancestor.txt](./Sporobolus_subgenome/Sporobolus_maritimus_chr.ancestor.txt)
 
-| 3    | 1    | 1081 | #0000ff | 1    |
+| 3    | 1    | 1081 | #000000 | 1    |
 | ---- | ---- | ---- | ------- | ---- |
-| 3    | 1426 | 2208 | #0000ff | 1    |
-| 7    | 1    | 916  | #0000ff | 1    |
-| 7    | 2029 | 3278 | #0000ff | 1    |
-| 18   | 1    | 1067 | #0000ff | 1    |
-| 18   | 1802 | 2586 | #0000ff | 1    |
-| 22   | 1    | 936  | #0000ff | 1    |
-| 22   | 2064 | 3290 | #0000ff | 1    |
+| 3    | 1426 | 2208 | #000000 | 1    |
+| 7    | 1    | 916  | #000000 | 1    |
+| 7    | 2029 | 3278 | #000000 | 1    |
+| 18   | 1    | 1067 | #000000 | 1    |
+| 18   | 1802 | 2586 | #000000 | 1    |
+| 22   | 1    | 936  | #000000 | 1    |
+| 22   | 2064 | 3290 | #000000 | 1    |
 
 We assigned all *S. maritimus* chromosome blocks to one of four sub-subgenomes based on chromosome complementarity. The last column of ancestor_file represents different sub-subgenomes.
 
 [Sporobolus_maritimus_chr.ancestor.new.txt](./Sporobolus_subgenome/Sporobolus_maritimus_chr.ancestor.new.txt)
 
-| 3    | 1    | 1081 | #0000ff | 1    |
+| 3    | 1    | 1081 | #000000 | 1    |
 | ---- | ---- | ---- | ------- | ---- |
-| 3    | 1426 | 2208 | #0000ff | 1    |
-| 7    | 1    | 916  | #0000ff | 2    |
-| 7    | 2029 | 3278 | #0000ff | 2    |
-| 18   | 1    | 1067 | #0000ff | 3    |
-| 18   | 1802 | 2586 | #0000ff | 3    |
-| 22   | 1    | 936  | #0000ff | 4    |
-| 22   | 2064 | 3290 | #0000ff | 4    |
+| 3    | 1426 | 2208 | #000000 | 1    |
+| 7    | 1    | 916  | #000000 | 2    |
+| 7    | 2029 | 3278 | #000000 | 2    |
+| 18   | 1    | 1067 | #000000 | 3    |
+| 18   | 1802 | 2586 | #000000 | 3    |
+| 22   | 1    | 936  | #000000 | 4    |
+| 22   | 2064 | 3290 | #000000 | 4    |
 
 We defined sub-subgenome segments on the chromosomes and used WGDI with the parameters '-pc' and '-a'  to construct hierarchical gene lists for downstream analysis. The resulting dot plot is shown below.
 
