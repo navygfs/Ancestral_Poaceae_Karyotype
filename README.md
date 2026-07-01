@@ -9,9 +9,9 @@ We applied the workflow at https://github.com/SunPengChuan/wgdi-example/blob/mai
 Evolutionary trajectories from ancestral karyotypes to modern genomes are illustrated in the figure below.
 
 <center>
-<img src="Figure1.png" width="80%">
+<img src="Fig. 1.png" width="80%">
 <br>
-<img src="Figure2.png" width="80%">
+<img src="Fig. 2.png" width="80%">
 </center>
 
 **ABPK**:  Ancestral Karyotype of BOP and PACMAD clades  (12 protochromosomes)
