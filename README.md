@@ -4,7 +4,7 @@
 
 
 
-We applied the workflow at https://github.com/SunPengChuan/wgdi-example/blob/main/Karyotype_Evolution.md to identify ancestral karyotype of BOP and PACMAD clades  (**ABPK**，n=12) and further infer ancestral karyotypes for subfamilies and tribes with distinct chromosome structures based on sample genomes. These ancestral karyotypes are contained in the 'ancestral karyotype' folder.
+We applied the workflow at https://github.com/SunPengChuan/wgdi-example/blob/main/Karyotype_Evolution.md to identify ancestral karyotype of BOP and PACMAD clades  (**ABPK**，*n* = 12) and further infer ancestral karyotypes for subfamilies and tribes with distinct chromosome structures based on sample genomes. These ancestral karyotypes are contained in the 'ancestral karyotype' folder.
 
 Evolutionary trajectories from ancestral karyotypes to modern genomes are illustrated in the figure below.
 
@@ -13,6 +13,8 @@ Evolutionary trajectories from ancestral karyotypes to modern genomes are illust
 <br>
 <img src="Fig. 2.png" width="80%">
 </center>
+
+
 
 **ABPK**:  Ancestral Karyotype of BOP and PACMAD clades  (12 protochromosomes)
 **APHK**:  Ancestral Karyotype of  subfamily Pharoideae  (12 protochromosomes)
